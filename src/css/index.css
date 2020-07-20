@@ -1,0 +1,58 @@
+html{
+  min-height: 100%;
+}
+
+body{
+  min-height: 100%;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Quote__container{
+  background-color: whitesmoke;
+  padding: 2em;
+  width: 80%;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.Quote__quote{
+  text-align: center;
+  position: relative;
+}
+
+.Quote__quote span{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.Quote__author{
+  font-size: 1.3em;
+  text-align: right;
+  font-style: italic;
+}
+
+.btn.btn-primary{
+  color: rgba(0, 0, 0, .7);
+  background-color: #B59A0B;
+  border-color: rgba(0, 0, 0, .7);
+}
+
+.Loading{
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
