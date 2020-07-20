@@ -1,4 +1,4 @@
-import React from 'rnpmeact'
+import React from 'react'
 
 
 const Error = ({error}) =>(
